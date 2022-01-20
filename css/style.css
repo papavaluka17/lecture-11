@@ -1,0 +1,145 @@
+/* global */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* section */
+
+.s-1 {
+  margin-top: 55px;
+}
+
+.container > h4 {
+  color: #5863f8;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container > h2 {
+  color: #000000;
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+textarea {
+  resize: none;
+  max-width: 720px;
+  width: 100%;
+  height: 280px;
+  border: 1px solid lightgray;
+  color: black;
+  padding: 10px 10px;
+  margin-right: 20px;
+}
+
+input {
+  max-width: 360px;
+  width: 100%;
+  height: 55px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+button {
+  background-color: rgb(78, 78, 248);
+  border: none;
+  color: white;
+  padding: 15px 150px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 55px;
+}
+
+.mini-box {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+}
+
+.mini-box > h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.mini-box > p {
+  color: #b1b1b1;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+}
+
+.footer {
+  margin-top: 100px;
+  padding: 90px 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-wrapper {
+  width: 200px;
+}
+
+.footer-wrapper > h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-wrapper > p {
+  color: white;
+  font-weight: 200;
+  font-size: 11px;
+}
+
+.social-networks {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.footer-wrapper ul li:not(last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-wrapper a {
+  color: rgb(98, 98, 240);
+}
+
+.social-li {
+  color: white;
+}
